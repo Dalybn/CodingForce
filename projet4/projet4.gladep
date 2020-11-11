@@ -2,7 +2,7 @@
 <!DOCTYPE glade-project SYSTEM "http://glade.gnome.org/glade-project-2.0.dtd">
 
 <glade-project>
-  <name>ProjectC</name>
-  <program_name>ProjectC</program_name>
+  <name>Projet4</name>
+  <program_name>projet4</program_name>
   <gnome_support>FALSE</gnome_support>
 </glade-project>
