@@ -16,3 +16,5 @@ void rechercher_capt(Capteur c, char ref[20]);
 void afficher_capteurCH(GtkWidget *liste);
 void modif_capteur(Capteur c);
 int type;
+int nbr_alT();
+int nbr_alH();

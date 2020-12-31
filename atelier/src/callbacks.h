@@ -160,3 +160,201 @@ on_radiobutton1_toggled                (GtkToggleButton *togglebutton,
 void
 on_radiobutton2_toggled                (GtkToggleButton *togglebutton,
                                         gpointer         user_data);
+
+void
+on_quitterL_clicked                    (GtkWidget        *objet,
+                                        gpointer         user_data);
+
+void
+on_quitterET_clicked                   (GtkWidget        *objet,
+                                        gpointer         user_data);
+
+void
+on_quitterEH_clicked                   (GtkWidget        *objet,
+                                        gpointer         user_data);
+
+/*void
+on_afficher_client_clicked             (GtkWidget        *objet,
+                                        gpointer         user_data);
+*/
+void
+on_afficher_commande_clicked           (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_afficher_reclamation_clicked        (GtkWidget        *objet,
+                                        gpointer         user_data);
+
+void
+on_retourDEF_clicked                   (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_captD_clicked                       (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_treeview6_row_activated             (GtkTreeView     *treeview,
+                                        GtkTreePath     *path,
+                                        GtkTreeViewColumn *column,
+                                        gpointer         user_data);
+
+void
+on_treeview7_row_activated             (GtkTreeView     *treeview,
+                                        GtkTreePath     *path,
+                                        GtkTreeViewColumn *column,
+                                        gpointer         user_data);
+
+void
+on_quitterDEF_clicked                  (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+
+
+void
+on_ajouterCL_clicked                   (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_afficher_client_clicked             (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+
+void
+on_DISPO_clicked                       (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_treeviewCL_row_activated            (GtkTreeView     *treeview,
+                                        GtkTreePath     *path,
+                                        GtkTreeViewColumn *column,
+                                        gpointer         user_data);
+
+void
+on_retourCL1_clicked                   (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_ajouter_client1_clicked             (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_client_clicked                      (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_valider_modif_clicked               (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_retour_modif_clicked                (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_DISPOREC_clicked                    (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_ajouterec_clicked                   (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_disporecl_clicked                   (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_rechercher_reclamation_clicked      (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_treeviewREC_row_activated           (GtkTreeView     *treeview,
+                                        GtkTreePath     *path,
+                                        GtkTreeViewColumn *column,
+                                        gpointer         user_data);
+
+void
+on_ajouter_rec_clicked                 (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+
+void
+on_Etat1_toggled                       (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
+
+void
+on_Etat2_toggled                       (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
+
+void
+on_rechercher_client_clicked           (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_modifier_client_clicked             (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_afficher_client1_clicked            (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_retourRESCL_clicked                 (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_responsable_client_clicked          (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_responsable_qualite_clicked         (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_exitAC_clicked                      (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_exitREC_clicked                     (GtkWidget      *objet,
+                                        gpointer         user_data);
+
+void
+on_treeviewCOM_row_activated           (GtkTreeView     *treeview,
+                                        GtkTreePath     *path,
+                                        GtkTreeViewColumn *column,
+                                        gpointer         user_data);
+
+void
+on_retourLCOM_clicked                  (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_ajouterLCOM_clicked                 (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_retourACOM_clicked                  (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_enregistrerACOM_clicked             (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_exitACOM_clicked                    (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_exitCOM_clicked                     (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_dispoCOM_clicked                    (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_REFRECH_clicked                     (GtkWidget       *objet,
+                                        gpointer         user_data);
+
+void
+on_nbree_clicked                       (GtkWidget       *objet,
+                                        gpointer         user_data);

@@ -22,7 +22,20 @@ main (int argc, char *argv[])
   GtkWidget *fenetre_ajouter_enT;
   GtkWidget *fenetre_afficher_enT;
   GtkWidget *modifier_capteur;
-   GtkWidget *f_chercher_capteur;
+  GtkWidget *f_chercher_capteur;
+  GtkWidget *capteur;
+  GtkWidget *capteur_defect;
+  GtkWidget *gestion_capteur;
+  GtkWidget *gestion_client;
+GtkWidget *fenetre_ajouter_client;
+GtkWidget *fenetre_ajouter_reclamation;
+ GtkWidget *fenetre_afficher_client;
+ GtkWidget *fenetre_afficher_reclamation;
+GtkWidget *fenetre_modifier_client;
+  GtkWidget *fenetre_responsable;
+  GtkWidget *liste_commande;
+  GtkWidget *ajoute_commande;
+
 #ifdef ENABLE_NLS
   bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR);
   bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
@@ -39,8 +52,13 @@ main (int argc, char *argv[])
    * (except popup menus), just so that you see something after building
    * the project. Delete any components that you don't want shown initially.
    */
-  liste_capteurs = create_liste_capteurs ();
-  gtk_widget_show (liste_capteurs);
+
+
+  fenetre_responsable = create_fenetre_responsable();
+  gtk_widget_show (fenetre_responsable);
+
+  /*liste_capteurs = create_liste_capteurs ();
+  gtk_widget_show (liste_capteurs);*/
 
   gtk_main ();
   return 0;
