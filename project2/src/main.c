@@ -15,8 +15,11 @@
 int
 main (int argc, char *argv[])
 {
-  GtkWidget *ProjetC;
-  GtkWidget *window2;
+  GtkWidget *Gestion_de_troupeaux;
+  GtkWidget *Ajouter_un_animal;
+  GtkWidget *gestion_des___quipement_agricoles;
+  GtkWidget *liste_equipement;
+  GtkWidget *affectation_equipement;
 
 #ifdef ENABLE_NLS
   bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR);
@@ -34,10 +37,16 @@ main (int argc, char *argv[])
    * (except popup menus), just so that you see something after building
    * the project. Delete any components that you don't want shown initially.
    */
-  ProjetC = create_ProjetC ();
-  gtk_widget_show (ProjetC);
-  window2 = create_window2 ();
-  gtk_widget_show (window2);
+  Gestion_de_troupeaux = create_Gestion_de_troupeaux ();
+  gtk_widget_show (Gestion_de_troupeaux);
+  Ajouter_un_animal = create_Ajouter_un_animal ();
+  gtk_widget_show (Ajouter_un_animal);
+  gestion_des___quipement_agricoles = create_gestion_des___quipement_agricoles ();
+  gtk_widget_show (gestion_des___quipement_agricoles);
+  liste_equipement = create_liste_equipement ();
+  gtk_widget_show (liste_equipement);
+  affectation_equipement = create_affectation_equipement ();
+  gtk_widget_show (affectation_equipement);
 
   gtk_main ();
   return 0;

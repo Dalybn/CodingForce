@@ -5,13 +5,13 @@ INCLUDES = \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
 	@PACKAGE_CFLAGS@
 
-bin_PROGRAMS = ProjectC
+bin_PROGRAMS = les-taches-de-sofiene
 
-ProjectC_SOURCES = \
+les_taches_de_sofiene_SOURCES = \
 	main.c \
 	support.c support.h \
 	interface.c interface.h \
 	callbacks.c callbacks.h
 
-ProjectC_LDADD = @PACKAGE_LIBS@ $(INTLLIBS)
+les_taches_de_sofiene_LDADD = @PACKAGE_LIBS@ $(INTLLIBS)
 
