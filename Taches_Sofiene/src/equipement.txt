@@ -1,0 +1,5 @@
+1 Moissonneuses CLASS 2015 5000w 2x2 OK 1 Janvier 2021
+3 Compacteur HATTAT 2016 8500w Chenilles OK 3 Janvier 2022
+4 Compacteur JOHN_DEERE 2016 45000w 2x2 OK 2 Mars 2022
+5 Tracteur HATTAT 2014 7500w 2x2 OK 1 Janvier 2021
+6 Tracteur ANTONIO_CARRARO 2014 45800w 4x4 OK 1 Février 2020
