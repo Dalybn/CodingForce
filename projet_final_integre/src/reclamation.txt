@@ -1,0 +1,10 @@
+1 4 12 Avril 2021 ok Traite fff
+2 123 18 Juillet 2023 att Traite bhy
+3 14785 3 Novembre 2021 oum Non_traite kkkkkk
+4 123 3 Mars 2055 jhgfj Non_traite nnn
+5 3 8 Aout 2046 hhh Traite ok
+6 4 8 Juin 2034 dsc Non_traite ----
+7 4 1 Mars 2020 djeja_bhima Non_traite ekhdem
+8 3 3 Mars 2022 sdfs Non_traite sdf
+9 3 1 Mars 2020 sdfs Non_traite sdf
+10 3 3 Mars 2021 mauvais_animal Non_traite ____
