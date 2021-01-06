@@ -1,0 +1,8 @@
+Temperature MAPQO t1 0.2µs 98%
+Humidite METOS h1 0.6ms 80%
+Temperature TEXTAR t2 0.2ms 90%
+Humidite WILE h2 0.2µs 95%
+Temperature RIDEX t3 0.4µs 86%
+Humidite KIMO h3 0.2ms 82%
+Humidite WILE h4 0.2ms 100%
+Humidite WILE h5 0.5ms 100%

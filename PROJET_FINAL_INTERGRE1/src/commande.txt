@@ -1,0 +1,14 @@
+Animal mouton 5  500dt mouton545 hiba_ef
+Fruit fraise 5kg 3dt fraise45 oumayma_farhani
+Legume concombre 9kg 1.2dt con1 12546
+Fruit cerise 4kg 4dt ce2 320
+Legume poireau 6kg 1dt p1 0365
+Fruit prune 10kg 6dt p5 456
+Animal vache 2 1200dt v1 85
+Animal poule 5 12dt po45 89456
+Cerial engrain 5kg 12dt g54 4
+Legume feve 23kg 1.2dt fe12 325698
+Legume feve 12kg 1.2dt f152 52322
+Animal mouton 5 500dt m456 3
+Animal daly 5 50000dt 15 3
+Animal daly 5 50000dt 15 3

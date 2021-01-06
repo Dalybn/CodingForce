@@ -1,0 +1,4 @@
+5 3  8 Aout 2046 hhh Traite ok
+8 3  3 Mars 2022 sdfs Non_traite sdf
+9 3  1 Mars 2020 sdfs Non_traite sdf
+10 3  3 Mars 2021 mauvais_animal Non_traite ____
